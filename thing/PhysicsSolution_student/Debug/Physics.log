@@ -1,0 +1,44 @@
+﻿Build started 7/24/2015 12:00:44 PM.
+     1>Project "C:\Users\jack.carolan\Desktop\PhysicsSolution_student\Physics.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLM_FORCE_PURE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\Physics.cpp src\main.cpp
+         Physics.cpp
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\ragdoll.h(78): warning C4244: 'argument' : conversion from 'double' to 'physx::PxReal', possible loss of data
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\ragdoll.h(79): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\ragdoll.h(80): warning C4244: 'argument' : conversion from 'double' to 'physx::PxReal', possible loss of data
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\ragdoll.h(81): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\physics.cpp(27): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\physics.cpp(206): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\physics.cpp(207): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\physics.cpp(208): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\physics.cpp(209): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\physics.cpp(219): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\physics.cpp(327): warning C4244: 'argument' : conversion from 'int' to 'physx::PxReal', possible loss of data
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\physics.cpp(329): warning C4244: 'argument' : conversion from 'int' to 'physx::PxReal', possible loss of data
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\physics.cpp(330): warning C4244: 'argument' : conversion from 'int' to 'physx::PxReal', possible loss of data
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\physics.cpp(389): warning C4305: 'argument' : truncation from 'double' to 'float'
+         Generating Code...
+         Compiling...
+         main.cpp
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\ragdoll.h(78): warning C4244: 'argument' : conversion from 'double' to 'physx::PxReal', possible loss of data
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\ragdoll.h(79): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\ragdoll.h(80): warning C4244: 'argument' : conversion from 'double' to 'physx::PxReal', possible loss of data
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\ragdoll.h(81): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jack.carolan\Desktop\PhysicsSolution_student\Debug\Physics.exe" /INCREMENTAL /NOLOGO glfw3.lib opengl32.lib PhysX3DEBUG_x86.lib PhysX3ExtensionsDEBUG.lib PhysX3CommonDEBUG_x86.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\jack.carolan\Desktop\PhysicsSolution_student\Debug\Physics.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jack.carolan\Desktop\PhysicsSolution_student\Debug\Physics.lib" /MACHINE:X86 Debug\Application.obj
+         Debug\Camera.obj
+         Debug\Gizmos.obj
+         Debug\gl_core_4_4.obj
+         Debug\main.obj
+         Debug\ParticleEmitter.obj
+         Debug\ParticleFluidEmitter.obj
+         Debug\Physics.obj
+         Debug\Ragdoll.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Physics.vcxproj -> C:\Users\jack.carolan\Desktop\PhysicsSolution_student\Debug\Physics.exe
+     1>Done Building Project "C:\Users\jack.carolan\Desktop\PhysicsSolution_student\Physics.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.64

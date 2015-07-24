@@ -1,0 +1,23 @@
+﻿Build started 7/24/2015 10:02:39 AM.
+     1>Project "C:\Users\jack.carolan\Desktop\FluidSimStart\Assignment1\Assignment1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\jack.carolan\Desktop\FluidSimStart\Assignment1\dep /AIC:\Users\jack.carolan\Desktop\FluidSimStart\Assignment1\dep /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLM_FORCE_PURE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\DIYFluid.cpp
+         DIYFluid.cpp
+     1>c:\users\jack.carolan\desktop\fluidsimstart\assignment1\src\diyfluid.cpp(293): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>c:\users\jack.carolan\desktop\fluidsimstart\assignment1\src\diyfluid.cpp(294): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>c:\users\jack.carolan\desktop\fluidsimstart\assignment1\src\diyfluid.cpp(295): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jack.carolan\Desktop\FluidSimStart\Debug\Assignment1.exe" /INCREMENTAL /NOLOGO glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\jack.carolan\Desktop\FluidSimStart\Debug\Assignment1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jack.carolan\Desktop\FluidSimStart\Debug\Assignment1.lib" /MACHINE:X86 Debug\Gizmos.obj
+         Debug\glm.obj
+         Debug\DIYFluid.obj
+         Debug\DIYPhysicsEngine.obj
+         Debug\gl_core_4_4.obj
+         Debug\main.obj
+         Debug\Utilities.obj
+         dep\glfw3.lib
+         Assignment1.vcxproj -> C:\Users\jack.carolan\Desktop\FluidSimStart\Debug\Assignment1.exe
+     1>Done Building Project "C:\Users\jack.carolan\Desktop\FluidSimStart\Assignment1\Assignment1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.56
