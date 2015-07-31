@@ -1,0 +1,69 @@
+﻿Build started 7/31/2015 3:46:25 PM.
+     1>Project "C:\Users\jack.carolan\Desktop\PhysicsSolution_student\Physics.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D NDEBUG /D GLM_FORCE_PURE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\Application.cpp src\Callback.cpp src\Camera.cpp src\DIYmain.cpp src\DIYPhysicsEngine.cpp src\Gizmos.cpp src\main.cpp src\MyControllerHitReport.cpp src\ParticleEmitter.cpp src\ParticleFluidEmitter.cpp src\Physics.cpp src\Ragdoll.cpp
+         Application.cpp
+         Callback.cpp
+         Camera.cpp
+         DIYmain.cpp
+     1>src\DIYmain.cpp(22): warning C4305: 'return' : truncation from 'int' to 'bool'
+     1>src\DIYmain.cpp(34): warning C4305: 'return' : truncation from 'int' to 'bool'
+     1>src\DIYmain.cpp(43): warning C4305: 'return' : truncation from 'int' to 'bool'
+         DIYPhysicsEngine.cpp
+         Gizmos.cpp
+         main.cpp
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\Ragdoll.h(78): warning C4244: 'argument' : conversion from 'double' to 'physx::PxReal', possible loss of data
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\Ragdoll.h(79): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\Ragdoll.h(80): warning C4244: 'argument' : conversion from 'double' to 'physx::PxReal', possible loss of data
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\Ragdoll.h(81): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+         MyControllerHitReport.cpp
+         ParticleEmitter.cpp
+         ParticleFluidEmitter.cpp
+         Physics.cpp
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\Ragdoll.h(78): warning C4244: 'argument' : conversion from 'double' to 'physx::PxReal', possible loss of data
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\Ragdoll.h(79): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\Ragdoll.h(80): warning C4244: 'argument' : conversion from 'double' to 'physx::PxReal', possible loss of data
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\Ragdoll.h(81): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>src\Physics.cpp(27): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>src\Physics.cpp(216): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>src\Physics.cpp(217): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>src\Physics.cpp(218): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>src\Physics.cpp(219): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>src\Physics.cpp(229): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>src\Physics.cpp(252): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>src\Physics.cpp(414): warning C4244: 'argument' : conversion from 'int' to 'physx::PxReal', possible loss of data
+     1>src\Physics.cpp(416): warning C4244: 'argument' : conversion from 'int' to 'physx::PxReal', possible loss of data
+     1>src\Physics.cpp(417): warning C4244: 'argument' : conversion from 'int' to 'physx::PxReal', possible loss of data
+     1>src\Physics.cpp(476): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>src\Physics.cpp(537): warning C4244: '=' : conversion from 'const physx::PxExtended' to 'float', possible loss of data
+     1>src\Physics.cpp(538): warning C4244: '=' : conversion from 'const physx::PxExtended' to 'float', possible loss of data
+     1>src\Physics.cpp(539): warning C4244: '=' : conversion from 'const physx::PxExtended' to 'float', possible loss of data
+         Ragdoll.cpp
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\Ragdoll.h(78): warning C4244: 'argument' : conversion from 'double' to 'physx::PxReal', possible loss of data
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\Ragdoll.h(79): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\Ragdoll.h(80): warning C4244: 'argument' : conversion from 'double' to 'physx::PxReal', possible loss of data
+     1>c:\users\jack.carolan\desktop\physicssolution_student\src\Ragdoll.h(81): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D NDEBUG /D GLM_FORCE_PURE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt src\gl_core_4_4.c
+         gl_core_4_4.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jack.carolan\Desktop\PhysicsSolution_student\Release\Physics.exe" /NOLOGO glfw3.lib opengl32.lib PhysX3_x86.lib PhysX3Extensions.lib PhysX3Common_x86.lib PhysX3CharacterKinematic_x86.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\jack.carolan\Desktop\PhysicsSolution_student\Release\Physics.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jack.carolan\Desktop\PhysicsSolution_student\Release\Physics.lib" /MACHINE:X86 /SAFESEH Release\Application.obj
+         Release\Callback.obj
+         Release\Camera.obj
+         Release\DIYmain.obj
+         Release\DIYPhysicsEngine.obj
+         Release\Gizmos.obj
+         Release\gl_core_4_4.obj
+         Release\main.obj
+         Release\MyControllerHitReport.obj
+         Release\ParticleEmitter.obj
+         Release\ParticleFluidEmitter.obj
+         Release\Physics.obj
+         Release\Ragdoll.obj
+         Generating code
+         Finished generating code
+         Physics.vcxproj -> C:\Users\jack.carolan\Desktop\PhysicsSolution_student\Release\Physics.exe
+     1>Done Building Project "C:\Users\jack.carolan\Desktop\PhysicsSolution_student\Physics.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:27.90
